@@ -1,7 +1,5 @@
 from typing import List
 
-# This works linear time
-# logarithmic time solution: https://medium.com/@hazemu/finding-the-median-of-2-sorted-arrays-in-logarithmic-time-1d3f2ecbeb46
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         i, j = 0, 0
